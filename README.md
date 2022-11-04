@@ -1,8 +1,8 @@
 # AngularBeginnerPack
 
 ## Important Links
-[Angular Docs](https://angular.io/docs).
-[Sharing Data b/w Components] (https://fireship.io/lessons/sharing-data-between-angular-components-four-methods/)
+[Angular Docs](https://angular.io/docs)
+[Sharing Data b/w Components] (https://fireship.io/lessons/sharing-data-between-angular-components-four-methods)
 
 ## Development server
 
