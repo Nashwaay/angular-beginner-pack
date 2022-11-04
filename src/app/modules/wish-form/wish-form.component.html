@@ -1,0 +1,25 @@
+<div class="container overflow-hidden text-center">
+    <div class="row gx-5 gy-5 m-3">
+        <div class="col-9">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Jot your wish item</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" name="wish-item"
+                        [(ngModel)]="wishItem">
+                </div>
+
+
+                <button type="submit" class="btn btn-success" (click)="onAddButtonClick()">Add Item!</button>
+            </form>
+        </div>
+
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">{{count}}</h5>
+                  <button type="submit" class="btn btn-secondary" [routerLink]="'/wish-list'">See Details</button>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

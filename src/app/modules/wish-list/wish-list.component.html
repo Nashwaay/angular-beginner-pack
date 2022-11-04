@@ -1,0 +1,27 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let column of columnNames" scope="col">{{column}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngIf="wishes.length; then dataFound; else noDataFound;">
+    </ng-container>
+  </tbody>
+</table>
+
+<ng-template #dataFound>
+  <tr *ngFor="let wish of wishes; let i =  index">
+    <td>{{i + 1}}</td>
+    <td>{{wish}}</td>
+    <td>
+      <button class="btn btn-sm btn-danger" (click)="onDeleteClick(i)">Delete</button>
+    </td>
+  </tr>
+</ng-template>
+
+<ng-template #noDataFound>
+  <tr>
+    <td colspan="3">No record found</td>
+  </tr>
+</ng-template>
