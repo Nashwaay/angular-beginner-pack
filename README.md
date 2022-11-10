@@ -8,7 +8,7 @@
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Exrecise
+## Exercise
 Modify or add a feature to improve the web app
 - [ ] Edit a wish item
 - [ ] Mark strikethrough for completed wishes
